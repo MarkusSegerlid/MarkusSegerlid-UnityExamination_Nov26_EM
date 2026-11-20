@@ -366,11 +366,77 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 343935312}
   m_CullTransparentMesh: 1
+--- !u!4 &462773248 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5131231597558223534, guid: 76b48b760236ced4a8e114d424ed51c5, type: 3}
+  m_PrefabInstance: {fileID: 531468595}
+  m_PrefabAsset: {fileID: 0}
 --- !u!20 &519420031 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 7314677276630146562, guid: 0507c5d4a56d7bf4da3659e66c04a68d, type: 3}
   m_PrefabInstance: {fileID: 4230132791250724954}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &531468595
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 646640340}
+    m_Modifications:
+    - target: {fileID: 2368949642019437776, guid: 76b48b760236ced4a8e114d424ed51c5, type: 3}
+      propertyPath: m_Name
+      value: Bouncy wall
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131231597558223534, guid: 76b48b760236ced4a8e114d424ed51c5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131231597558223534, guid: 76b48b760236ced4a8e114d424ed51c5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131231597558223534, guid: 76b48b760236ced4a8e114d424ed51c5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131231597558223534, guid: 76b48b760236ced4a8e114d424ed51c5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131231597558223534, guid: 76b48b760236ced4a8e114d424ed51c5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131231597558223534, guid: 76b48b760236ced4a8e114d424ed51c5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131231597558223534, guid: 76b48b760236ced4a8e114d424ed51c5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131231597558223534, guid: 76b48b760236ced4a8e114d424ed51c5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131231597558223534, guid: 76b48b760236ced4a8e114d424ed51c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131231597558223534, guid: 76b48b760236ced4a8e114d424ed51c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131231597558223534, guid: 76b48b760236ced4a8e114d424ed51c5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 76b48b760236ced4a8e114d424ed51c5, type: 3}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -485,6 +551,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1284613626}
+  - {fileID: 462773248}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &933308852 stripped
@@ -910,7 +977,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Point tally: (by my expectations)
 
-    421331133115132
+    4213311331151321
 
     6
 
@@ -934,7 +1001,9 @@ MonoBehaviour:
 
     30
 
-    32'
+    32
+
+    33'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
