@@ -8,7 +8,7 @@ public class CustomizablePlatformerMovement : MonoBehaviour
 
     [Header("Components")]
     [SerializeField] private new Rigidbody2D rigidbody;
-    [SerializeField] private CircleCollider2D groundCheckCollider;
+    [SerializeField] private BoxCollider2D groundCheckCollider;
 
     [Header("Movement")]
     [SerializeField] private float walkSpeed = 10f;
