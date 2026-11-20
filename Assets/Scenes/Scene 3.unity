@@ -977,7 +977,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Point tally: (by my estimations, expectations and calculations)
 
-    42133113311513213
+    421331133115132131
 
     6
 
@@ -1005,7 +1005,9 @@ MonoBehaviour:
 
     33
 
-    36'
+    36
+
+    37'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
